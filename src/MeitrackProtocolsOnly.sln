@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeiligaoProtocol", "MeiligaoProtocol\MeiligaoProtocol.csproj", "{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{3E99A016-F6E0-4B89-B85F-7DEBB5A720D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41CFADED-2B75-4C38-8E4D-773781D02BD9}"
+	ProjectSection(SolutionItems) = preProject
+		MeitrackProtocolsOnly.vsmdi = MeitrackProtocolsOnly.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeiligaoProtocolTest", "Testing\MeiligaoProtocolTest\MeiligaoProtocolTest.csproj", "{F00817CD-8DBF-4AA3-927A-F8198F4063DE}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MeitrackProtocolsOnly.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Debug|x86.ActiveCfg = Debug|x86
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Debug|x86.Build.0 = Debug|x86
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Release|Any CPU.ActiveCfg = Release|x86
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Release|x86.ActiveCfg = Release|x86
+		{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}.Release|x86.Build.0 = Release|x86
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F00817CD-8DBF-4AA3-927A-F8198F4063DE} = {3E99A016-F6E0-4B89-B85F-7DEBB5A720D9}
+	EndGlobalSection
+EndGlobal
