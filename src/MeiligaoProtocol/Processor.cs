@@ -55,7 +55,7 @@ namespace MeiligaoProtocol
             //1.Header
             packet.Header = Encoding.ASCII.GetString(bytes, 0, 2);
 
-            //2.Length 
+            //2.Length of the packet
             packet.Length = getLengthFromBytes(bytes);
 
             //3.ID
@@ -84,7 +84,7 @@ namespace MeiligaoProtocol
 
         private static byte getCommandFlagFromBytes(byte[] bytes)
         {
-            throw new NotImplementedException();
+            return bytes[13];//Flags are only one byte long and we know where they are always located
         }
 
         private static bool IsChecksumValid(byte[] bytes, out UInt16 ValidChecksum)
@@ -154,11 +154,10 @@ namespace MeiligaoProtocol
             return rtVal;
         }
 
-        private static string getIDFromBytes(IEnumerable<byte> bytes)
+        private static string getIDFromBytes(byte[] bytes)
         {
             var rtVal = string.Empty;
-            var packetBytes = bytes.ToArray();
-            rtVal = BitConverter.ToString(packetBytes, 4, 7).Replace("-", "");
+            rtVal = BitConverter.ToString(bytes, 4, 7).Replace("-", "");
             rtVal = rtVal.ToLower().Remove(rtVal.ToLower().IndexOf('f'));
             return rtVal;
         }
