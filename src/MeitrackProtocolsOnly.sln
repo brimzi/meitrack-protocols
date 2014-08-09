@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeiligaoProtocol", "MeiligaoProtocol\MeiligaoProtocol.csproj", "{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeitrackProtocols", "MeiligaoProtocol\MeitrackProtocols.csproj", "{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{3E99A016-F6E0-4B89-B85F-7DEBB5A720D9}"
 EndProject

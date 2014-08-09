@@ -49,9 +49,9 @@
     <Compile Include="ProcessorUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MeiligaoProtocol\MeiligaoProtocol.csproj">
+    <ProjectReference Include="..\..\MeiligaoProtocol\MeitrackProtocols.csproj">
       <Project>{566F65D8-ADA6-4CBE-AA75-64318ACE4B6E}</Project>
-      <Name>MeiligaoProtocol</Name>
+      <Name>MeitrackProtocols</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
