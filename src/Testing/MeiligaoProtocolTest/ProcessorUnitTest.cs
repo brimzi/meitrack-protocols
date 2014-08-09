@@ -36,7 +36,7 @@ namespace MeiligaoProtocolTest
                                             , 0x30, 0x69, 0x62, 0x0D, 0x0A
                                         };
 
-            var testPacket1 = Processor.GetMeiligaoPacket(trackOnDemandresponseBytes);
+            var testPacket1 = MeiligaoProcessor.GetMeiligaoPacket(trackOnDemandresponseBytes);
 
             Assert.AreEqual(testPacket1.Header, trackOnDemandresponsePacket.Header,"Header convension test failed");
             Assert.AreEqual(testPacket1.Length, trackOnDemandresponsePacket.Length,"Length convension test failed");
